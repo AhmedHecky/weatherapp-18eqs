@@ -1,0 +1,58 @@
+* {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgb(16, 135, 159) 100%
+  );
+}
+.user {
+  height: 40px;
+  width: 10px;
+}
+.sep{
+  background: rgb(0, 0, 0);
+
+        font-family: 'sans-serif';
+        font-weight: normal;
+        font-style: normal;
+        width: 100%;
+        margin: auto;
+        border-radius: 0px;
+        text-align: center;
+        color: rgb(255, 0, 0);
+        padding-top: 1px;
+        padding-bottom: 1px;
+      
+}
+marquee {
+  font-size: 20px;
+}
+
+footer {
+  top: 80%;
+}
+
+.box {
+  background: rgb(21, 30, 82);
+  background: linear-gradient(
+    90deg,
+    rgba(33, 17, 44, 1) 0%,
+    rgb(6, 6, 56) 35%,
+    rgb(12, 62, 72) 100%
+  );
+  width: 93%;
+  margin: auto;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
