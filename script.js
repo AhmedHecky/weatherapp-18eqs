@@ -6,7 +6,7 @@ function logingoogle()  {
 
   let params = {
       "client_id":"771721932538-tlb9a3ura54gkhgk14iuidfgjogm40af.apps.googleusercontent.com",
-      "redirect_uri":"https://www.therealahmed.com/WeatherApp",
+      "redirect_uri":"https://www.therealahmed.com/WeatherApp.html",
       "response_type": "token",
       "scope": "https://www.googleapis.com/auth/userinfo.profile",
       "included_granted_scopes":'true',
