@@ -114,3 +114,15 @@ body {
 #nametext{
   margin-bottom: 1em;
 }
+.ver{
+  color: grey;
+  font-style:italic;
+  font-size: 9px;
+  margin: 2em;
+}
+#clock{
+  text-align: end;
+  margin: 0.5em;
+  color: white;
+  font-size: 2em;
+}
