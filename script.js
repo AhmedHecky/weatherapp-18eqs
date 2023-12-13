@@ -72,6 +72,7 @@ let weather = {
       document.querySelector(".temp").innerText = temp + "°C";
       document.querySelector(".humidity").innerText =
         "Humidity: " + humidity + "%"; 
+      document.querySelector(".wind").innerText =
         "Wind speed: " + speed + " km/h";
       document.body.style.backgroundImage = 
       document.querySelector(".weather").classList.remove("loading");
