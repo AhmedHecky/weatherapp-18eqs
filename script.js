@@ -33,8 +33,8 @@ function startTime() {
   let s = today.getSeconds();
   m = checkTime(m);
   s = checkTime(s);
-   let clockElement = document.getElementById('clock').innerHTML;
-   clockElement = clockElement +  h + ":" + m + ":" + s
+  document.getElementById('clock').innerHTML = h + ":" + m + ":" + s
+
   setTimeout(startTime, 1000);
 }
 
